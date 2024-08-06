@@ -17,3 +17,12 @@ Corriendo node en la terminal de VSC
     ```git
         cd 01-Fundamentos
     ```
+
+## Leer Archivos - FileSystem
+Link del repo para la documentacion oficial de React https://github.com/facebook/react
+Vamos a hacer algo para poder leer nuestro README
+* El utf8 es para especificar el tipo de encoding, si no hago esto es posible que me devuelva el binario del mismo.
+    ![Leer archivos con Node- FileSystem](assets/FileSystem.png)
+
+Ahora vamos a modificar data de ese archivo que estamos leyendo y con esta data modificada escribir un nuevo archivo.
+    ![Modificar y escribir un nuevo archivo con Node- FileSystem](assets/writeFileSystem.png)
